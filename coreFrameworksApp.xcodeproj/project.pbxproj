@@ -12,15 +12,20 @@
 		E3A1044D2AD20304007207E0 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = E3A1044C2AD20304007207E0 /* Preview Assets.xcassets */; };
 		E3A104542AD2035E007207E0 /* Framework.swift in Sources */ = {isa = PBXBuildFile; fileRef = E3A104532AD2035E007207E0 /* Framework.swift */; };
 		E3A104562AD20498007207E0 /* FrameworkGridView.swift in Sources */ = {isa = PBXBuildFile; fileRef = E3A104552AD20498007207E0 /* FrameworkGridView.swift */; };
+		E3F903012AD35606004DD934 /* frameworkDetailView.swift in Sources */ = {isa = PBXBuildFile; fileRef = E3F903002AD35606004DD934 /* frameworkDetailView.swift */; };
+		E3F903032AD359DA004DD934 /* CF_button.swift in Sources */ = {isa = PBXBuildFile; fileRef = E3F903022AD359DA004DD934 /* CF_button.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		E37AC2F72AD2510400F1655E /* testingPG.playground */ = {isa = PBXFileReference; lastKnownFileType = file.playground; name = testingPG.playground; path = ../../testingPG.playground; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.swift; };
 		E3A104422AD20303007207E0 /* coreFrameworksApp.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = coreFrameworksApp.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		E3A104452AD20303007207E0 /* coreFrameworksAppApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = coreFrameworksAppApp.swift; sourceTree = "<group>"; };
 		E3A104492AD20304007207E0 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		E3A1044C2AD20304007207E0 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
 		E3A104532AD2035E007207E0 /* Framework.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Framework.swift; sourceTree = "<group>"; };
 		E3A104552AD20498007207E0 /* FrameworkGridView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FrameworkGridView.swift; sourceTree = "<group>"; };
+		E3F903002AD35606004DD934 /* frameworkDetailView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = frameworkDetailView.swift; sourceTree = "<group>"; };
+		E3F903022AD359DA004DD934 /* CF_button.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CF_button.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -53,9 +58,12 @@
 		E3A104442AD20303007207E0 /* coreFrameworksApp */ = {
 			isa = PBXGroup;
 			children = (
+				E37AC2F72AD2510400F1655E /* testingPG.playground */,
 				E3A104452AD20303007207E0 /* coreFrameworksAppApp.swift */,
 				E3A104532AD2035E007207E0 /* Framework.swift */,
 				E3A104552AD20498007207E0 /* FrameworkGridView.swift */,
+				E3F903002AD35606004DD934 /* frameworkDetailView.swift */,
+				E3F903022AD359DA004DD934 /* CF_button.swift */,
 				E3A104492AD20304007207E0 /* Assets.xcassets */,
 				E3A1044B2AD20304007207E0 /* Preview Content */,
 			);
@@ -140,9 +148,11 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				E3F903012AD35606004DD934 /* frameworkDetailView.swift in Sources */,
 				E3A104562AD20498007207E0 /* FrameworkGridView.swift in Sources */,
 				E3A104542AD2035E007207E0 /* Framework.swift in Sources */,
 				E3A104462AD20303007207E0 /* coreFrameworksAppApp.swift in Sources */,
+				E3F903032AD359DA004DD934 /* CF_button.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
